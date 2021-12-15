@@ -1,1 +1,14 @@
-<p>app-list-donkey works!</p>
+<h2>My Donkeys</h2>
+<div class="container">
+  <div class="row">
+    <div class="card col-sm" style="width: 18rem">
+      <img src="{{ user.picture }}" class="rounded mx-auto d-block" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{ user.name }}</h5>
+        <p class="card-text">Originaire de : {{ user.age }}</p>
+        <p class="card-text">Date de naisssance : {{ user.age }}</p>
+        <a href="#" class="btn btn-primary">Adopt me !</a>
+      </div>
+    </div>
+  </div>
+</div>
